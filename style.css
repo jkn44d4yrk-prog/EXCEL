@@ -15,12 +15,11 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--text);
-  background: background:
-  radial-gradient(1200px 800px at 15% 10%, rgba(16, 124, 65, 0.45), transparent 60%),   /* verde Excel */
-  radial-gradient(900px 700px at 90% 20%, rgba(33, 115, 70, 0.35), transparent 55%),    /* verde profundo */
-  radial-gradient(1000px 800px at 70% 70%, rgba(11, 45, 88, 0.55), transparent 60%),    /* azul oscuro */
-  radial-gradient(900px 700px at 20% 85%, rgba(20, 78, 140, 0.35), transparent 60%),    /* azul medio */
-  #071a2b;                                                                              /* base azul muy oscuro */
+  background: 
+  radial-gradient(1200px 800px at 15% 10%, rgba(16, 124, 65, 0.40), rgba(6, 10, 16, 1) 62%),
+  radial-gradient(900px 700px at 90% 20%, rgba(33, 115, 70, 0.30), rgba(6, 10, 16, 1) 60%),
+  radial-gradient(800px 700px at 40% 95%, rgba(0, 176, 80, 0.22), rgba(6, 10, 16, 1) 62%),
+  #060a10;
               var(--bg);
   min-height: 100vh;
   padding: 18px;
