@@ -4,17 +4,6 @@
 const questions = [
   {
     "id": 1,
-    "question": "1. # Preguntas de Excel 365 A continuación se presenta un conjunto de preguntas tipo test que cubre los contenidos del temario de Excel 365. Cada pregunta incluye cuatro opciones (A–D) y se indica la respuesta correcta.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "y se indica la respuesta correcta."
-    },
-    "correct": "A"
-  },
-  {
-    "id": 2,
     "question": "1. ¿Qué elemento de la interfaz de Excel agrupa comandos en pestañas y grupos y se encuentra en la parte superior de la pantalla?",
     "options": {
       "A": "Barra de fórmulas",
@@ -25,7 +14,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 3,
+    "id": 2,
     "question": "2. ¿Cuál de los siguientes botones permite acceder rápidamente a comandos como Guardar, Deshacer y Rehacer y se puede personalizar?",
     "options": {
       "A": "Barra de fórmulas",
@@ -36,7 +25,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 4,
+    "id": 3,
     "question": "3. En Excel, ¿dónde se encuentran los menús contextuales que muestran opciones relacionadas con el elemento seleccionado?",
     "options": {
       "A": "En la cinta de opciones",
@@ -47,7 +36,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 5,
+    "id": 4,
     "question": "4. Si desea buscar la ayuda de Excel 365 sobre un tema concreto, ¿qué opción debe usar?",
     "options": {
       "A": "Insertar > Comentarios",
@@ -58,7 +47,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 6,
+    "id": 5,
     "question": "5. Para crear un nuevo libro en blanco en Excel 365 desde el navegador, ¿qué pasos se describen?",
     "options": {
       "A": "Archivo > Nuevo > Libro en blanco",
@@ -69,7 +58,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 7,
+    "id": 6,
     "question": "6. Al guardar un libro por primera vez en Excel, ¿qué opción le permite elegir la ubicación, el nombre de archivo y el formato?",
     "options": {
       "A": "Guardar",
@@ -80,7 +69,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 8,
+    "id": 7,
     "question": "7. ¿Cuál es la diferencia entre “Guardar como” y “Guardar una copia” cuando la función Autoguardado está activada?",
     "options": {
       "A": "No hay diferencia",
@@ -91,7 +80,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 9,
+    "id": 8,
     "question": "8. ¿Qué afirma Microsoft sobre la característica Autoguardado en Excel 365?",
     "options": {
       "A": "Sólo está disponible en versiones de escritorio",
@@ -102,7 +91,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 10,
+    "id": 9,
     "question": "9. Para recuperar un archivo dañado debido a un apagón repentino, ¿qué característica de Excel se debe habilitar que guarda copias de seguridad de los archivos, aunque no sustituye a Guardar?",
     "options": {
       "A": "Autoguardado",
@@ -113,7 +102,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 11,
+    "id": 10,
     "question": "10. ¿Cuál de las siguientes combinaciones de teclas guarda los cambios en un libro existente?",
     "options": {
       "A": "Ctrl + S",
@@ -124,7 +113,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 12,
+    "id": 11,
     "question": "11. ¿Cuál de los siguientes tipos de datos se puede introducir en Excel?",
     "options": {
       "A": "Texto, números y fórmulas",
@@ -135,7 +124,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 13,
+    "id": 12,
     "question": "12. ¿Qué herramienta se utiliza para copiar o mover datos entre celdas y permite almacenar varios elementos para pegarlos posteriormente?",
     "options": {
       "A": "Cinta de opciones",
@@ -146,7 +135,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 14,
+    "id": 13,
     "question": "13. Al crear una serie de datos, ¿cómo se utilizan los controladores de relleno (Autorrellenar)?",
     "options": {
       "A": "No existen",
@@ -157,7 +146,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 15,
+    "id": 14,
     "question": "14. ¿Qué función de Excel permite buscar rápidamente valores específicos en una hoja, por ejemplo para localizar un número o palabra?",
     "options": {
       "A": "Buscar y reemplazar",
@@ -168,7 +157,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 16,
+    "id": 15,
     "question": "15. Si desea cambiar el tipo de letra, tamaño y color en varias celdas, ¿qué grupo de la cinta debe usar?",
     "options": {
       "A": "Datos > Herramientas de datos",
@@ -179,7 +168,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 17,
+    "id": 16,
     "question": "16. ¿Cuál es el método para aplicar un formato numérico, como moneda o fecha, en Excel?",
     "options": {
       "A": "Pulsar Ctrl + 1 y elegir una categoría en el cuadro Formato de celdas",
@@ -190,7 +179,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 18,
+    "id": 17,
     "question": "17. Al aplicar un estilo de celda predefinido (por ejemplo, título o nota), ¿en qué pestaña se encuentra la galería de estilos?",
     "options": {
       "A": ", ¿en qué pestaña se encuentra la galería de estilos?",
@@ -201,7 +190,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 19,
+    "id": 18,
     "question": "18. ¿Qué opción de alineación se utiliza para combinar varias celdas en una sola más grande, normalmente utilizada para crear títulos?",
     "options": {
       "A": "Centrar en selección",
@@ -212,7 +201,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 20,
+    "id": 19,
     "question": "19. Para cambiar la altura de una fila o el ancho de una columna, ¿qué acción se debe realizar?",
     "options": {
       "A": "Usar la sección Tablas",
@@ -223,7 +212,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 21,
+    "id": 20,
     "question": "20. ¿Cuál es la forma correcta de comenzar una fórmula en Excel?",
     "options": {
       "A": "#",
@@ -234,7 +223,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 22,
+    "id": 21,
     "question": "21. Si una fórmula contiene más de un operador (por ejemplo, suma y multiplicación), ¿qué regla sigue Excel para calcular el resultado?",
     "options": {
       "A": "Calcula de izquierda a derecha sin prioridad",
@@ -245,7 +234,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 23,
+    "id": 22,
     "question": "22. ¿Cuál de las siguientes afirmaciones describe correctamente la función SUMA?",
     "options": {
       "A": "Devuelve el mínimo de un conjunto de valores",
@@ -256,7 +245,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 24,
+    "id": 23,
     "question": "23. ¿Qué función se utiliza para obtener el valor mínimo entre varios números?",
     "options": {
       "A": "MAX",
@@ -267,7 +256,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 25,
+    "id": 24,
     "question": "24. ¿Cuál de las siguientes funciones devolverá el valor más alto de una lista de números?",
     "options": {
       "A": "MIN",
@@ -278,7 +267,7 @@ const questions = [
     "correct": "D"
   },
   {
-    "id": 26,
+    "id": 25,
     "question": "25. Si necesita conocer el promedio de los valores de A1 a A20, ¿qué fórmula usaría?",
     "options": {
       "A": "=CONTAR(A1:A20)",
@@ -289,7 +278,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 27,
+    "id": 26,
     "question": "26. ¿Qué función cuenta el número de celdas que contienen números en un rango?",
     "options": {
       "A": "CONTAR",
@@ -300,7 +289,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 28,
+    "id": 27,
     "question": "27. Para ordenar datos en una tabla o rango, ¿cuál de estos métodos se recomienda?",
     "options": {
       "A": "Seleccionar una celda y usar Datos > Ordenar y filtrar para elegir orden ascendente o descendente",
@@ -311,7 +300,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 29,
+    "id": 28,
     "question": "28. ¿Qué herramienta permite ocultar temporalmente datos que no cumplen ciertos criterios, mostrando sólo los registros que coinciden?",
     "options": {
       "A": "Ordenar",
@@ -322,7 +311,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 30,
+    "id": 29,
     "question": "29. Al crear subtotales en un rango de datos, ¿qué paso inicial es fundamental antes de aplicar la opción Subtotales?",
     "options": {
       "A": "Copiar el rango en otro libro",
@@ -333,7 +322,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 31,
+    "id": 30,
     "question": "30. Para agrupar filas o columnas manualmente y permitir expandir y contraer secciones de datos, ¿qué comando se utiliza en la pestaña Datos?",
     "options": {
       "A": "Insertar tabla",
@@ -344,7 +333,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 32,
+    "id": 31,
     "question": "31. Al crear una referencia externa a otra hoja de un libro, ¿qué parte de la fórmula identifica el libro de origen?",
     "options": {
       "A": "La función SUMA",
@@ -355,7 +344,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 33,
+    "id": 32,
     "question": "32. Para enlazar una celda de un libro con otra celda del mismo libro, ¿qué pasos se siguen?",
     "options": {
       "A": "Usar la función MIN",
@@ -366,7 +355,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 34,
+    "id": 33,
     "question": "33. ¿Qué método permite crear rápidamente un enlace a un rango de otra hoja o libro después de copiar datos?",
     "options": {
       "A": "Pegado especial con enlace (Pegar vínculo)",
@@ -377,7 +366,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 35,
+    "id": 34,
     "question": "34. Si desea insertar un vínculo que lleve a un archivo o sitio web desde una celda, ¿qué opciones del menú Insertar debe utilizar?",
     "options": {
       "A": "Insertar > Función",
@@ -388,7 +377,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 36,
+    "id": 35,
     "question": "35. ¿Cómo se divide una hoja de cálculo en dos paneles para ver dos regiones de la misma hoja simultáneamente?",
     "options": {
       "A": "Insertar un gráfico de columnas",
@@ -399,7 +388,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 37,
+    "id": 36,
     "question": "36. ¿Para eliminar la división de una hoja, qué debe hacer después de dividirla con la opción Dividir?",
     "options": {
       "A": "Cerrar y volver a abrir el libro",
@@ -410,7 +399,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 38,
+    "id": 37,
     "question": "37. ¿Qué función congela filas o columnas para que permanezcan visibles mientras se desplaza por la hoja?",
     "options": {
       "A": "Dividir",
@@ -421,7 +410,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 39,
+    "id": 38,
     "question": "38. Si desea congelar las dos primeras columnas de una hoja, ¿qué debe hacer?",
     "options": {
       "A": "Seleccionar la segunda columna y elegir Congelar paneles",
@@ -432,7 +421,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 40,
+    "id": 39,
     "question": "39. Para crear un esquema (outline) que agrupe filas o columnas y permita mostrar u ocultar detalles, ¿qué se debe hacer antes de utilizar la opción Subtotal?",
     "options": {
       "A": "Utilizar Filtro",
@@ -443,7 +432,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 41,
+    "id": 40,
     "question": "40. Para importar datos de un archivo de texto (.txt) en Excel 365, ¿qué proceso se describe?",
     "options": {
       "A": "Arrastrar el archivo al escritorio",
@@ -454,7 +443,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 42,
+    "id": 41,
     "question": "41. ¿Cómo se importan datos desde un archivo CSV usando el comando Desde texto/CSV?",
     "options": {
       "A": "Abrir la web",
@@ -465,7 +454,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 43,
+    "id": 42,
     "question": "42. ¿Dónde se encuentran las opciones para establecer márgenes, orientación y tamaño de página antes de imprimir un libro?",
     "options": {
       "A": "En la pestaña Datos",
@@ -476,7 +465,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 44,
+    "id": 43,
     "question": "43. ¿Dónde puede cambiar la orientación de página (vertical u horizontal) antes de imprimir un libro en Excel?",
     "options": {
       "A": "Pestaña Insertar",
@@ -487,7 +476,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 45,
+    "id": 44,
     "question": "44. ¿Qué vista muestra el aspecto de la hoja impresa, permitiendo ajustar saltos de página, encabezados y pies de página?",
     "options": {
       "A": "Vista normal",
@@ -498,7 +487,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 46,
+    "id": 45,
     "question": "45. ¿Qué control permite acercar o alejar la vista de una hoja de cálculo?",
     "options": {
       "A": "La barra de estado",
@@ -509,7 +498,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 47,
+    "id": 46,
     "question": "46. Para mostrar u ocultar la barra de fórmulas, las líneas de cuadrícula o los encabezados de fila y columna, ¿en qué pestaña se encuentran las opciones correspondientes?",
     "options": {
       "A": "Insertar",
@@ -520,7 +509,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 48,
+    "id": 47,
     "question": "47. ¿Qué función corrige automáticamente mayúsculas y abreviaturas mientras escribe en Excel?",
     "options": {
       "A": "Autocorrección",
@@ -531,7 +520,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 49,
+    "id": 48,
     "question": "48. ¿Cómo se inicia una revisión ortográfica en Excel?",
     "options": {
       "A": "Inicio > Párrafo",
@@ -542,7 +531,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 50,
+    "id": 49,
     "question": "49. ¿Cuál de las siguientes opciones, disponible en la ficha Revisar, permite buscar sinónimos de una palabra seleccionada?",
     "options": {
       "A": "Revisar > Sinónimos",
@@ -553,7 +542,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 51,
+    "id": 50,
     "question": "50. Para imprimir únicamente una selección de celdas sin imprimir la hoja completa, ¿qué debe hacer?",
     "options": {
       "A": "Seleccionar las celdas, luego Archivo > Imprimir y elegir «Selección actual»",
@@ -564,7 +553,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 52,
+    "id": 51,
     "question": "51. ¿Cómo se convierte un rango de datos en una tabla con diseño y funcionalidades especiales como filtrado y estilos automáticos?",
     "options": {
       "A": "Seleccionando el rango y pulsando Ctrl + T o Insertar > Tabla",
@@ -575,7 +564,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 53,
+    "id": 52,
     "question": "52. Cuando se agrega un filtro a una tabla, ¿qué ícono aparece en las cabeceras de columna para permitir seleccionar criterios?",
     "options": {
       "A": "Un triángulo invertido",
@@ -586,7 +575,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 54,
+    "id": 53,
     "question": "53. En una tabla, ¿cómo se aplica un estilo predefinido diferente de la apariencia predeterminada?",
     "options": {
       "A": "No se puede",
@@ -597,7 +586,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 55,
+    "id": 54,
     "question": "54. ¿Qué comando se usa para crear una tabla dinámica a partir de un rango de datos?",
     "options": {
       "A": "Datos > Consolidar",
@@ -608,7 +597,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 56,
+    "id": 55,
     "question": "55. Una vez creada la tabla dinámica, ¿dónde se seleccionan los campos que se arrastran a las áreas «Filas», «Columnas», «Valores» y «Filtros»?",
     "options": {
       "A": "Barra de fórmulas",
@@ -619,7 +608,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 57,
+    "id": 56,
     "question": "56. ¿Cómo se actualizan los datos de una tabla dinámica para reflejar cambios en el rango de origen?",
     "options": {
       "A": "Cerrando y volviendo a abrir Excel",
@@ -630,7 +619,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 58,
+    "id": 57,
     "question": "57. Para agrupar valores de fechas en una tabla dinámica en intervalos mensuales o anuales, ¿qué pasos se siguen?",
     "options": {
       "A": "Usar Filtros",
@@ -641,7 +630,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 59,
+    "id": 58,
     "question": "58. ¿Cuál es el método para desagrupar elementos previamente agrupados en una tabla dinámica?",
     "options": {
       "A": "Borrar la tabla",
@@ -652,7 +641,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 60,
+    "id": 59,
     "question": "59. Al crear un gráfico dinámico (PivotChart) a partir de una tabla, ¿qué tipos de gráficos son compatibles en Excel 365 para tablas dinámicas?",
     "options": {
       "A": "Todos los tipos (mapas, burbujas, etc.)",
@@ -663,7 +652,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 61,
+    "id": 60,
     "question": "60. ¿Qué procedimiento se sigue para crear un gráfico dinámico si todavía no existe una tabla dinámica?",
     "options": {
       "A": "Insertar > Tabla dinámica y luego Insertar gráfico",
@@ -674,7 +663,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 62,
+    "id": 61,
     "question": "61. ¿Cuál de los siguientes componentes de un gráfico muestra la representación visual de los datos, como barras o líneas?",
     "options": {
       "A": "Leyenda",
@@ -685,7 +674,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 63,
+    "id": 62,
     "question": "62. Al insertar un gráfico estándar, ¿en qué pestaña se encuentra el grupo que permite elegir el tipo de gráfico (columna, línea, circular, etc.)?",
     "options": {
       "A": "Inicio",
@@ -696,7 +685,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 64,
+    "id": 63,
     "question": "63. Para agregar un título al gráfico o etiquetas de los ejes, ¿qué debe hacer?",
     "options": {
       "A": "Hacer doble clic en el gráfico y activar el botón Elementos del gráfico",
@@ -707,7 +696,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 65,
+    "id": 64,
     "question": "64. ¿Cómo se cambia el tipo de gráfico después de haberlo creado?",
     "options": {
       "A": "Seleccionando el gráfico y eligiendo «Cambiar tipo de gráfico» en las herramientas de gráficos",
@@ -718,7 +707,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 66,
+    "id": 65,
     "question": "65. ¿Qué son los minigráficos (sparklines) y cómo se insertan?",
     "options": {
       "A": "Pequeñas fórmulas que calculan promedios",
@@ -729,7 +718,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 67,
+    "id": 66,
     "question": "66. ¿Cuál es la pestaña que se habilita al seleccionar un minigráfico y permite cambiar su tipo (línea, columna, ganancia/pérdida) y estilos?",
     "options": {
       "A": "y estilos?",
@@ -740,7 +729,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 68,
+    "id": 67,
     "question": "67. Al mover un gráfico dentro de la hoja, ¿qué acción se debe realizar?",
     "options": {
       "A": "Usar las flechas del teclado",
@@ -751,7 +740,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 69,
+    "id": 68,
     "question": "68. Para imprimir solo el gráfico sin la hoja completa, ¿qué opción se utiliza en la vista de impresión?",
     "options": {
       "A": "Seleccionar la opción «Imprimir gráfico seleccionado» en Configuración",
@@ -762,7 +751,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 70,
+    "id": 69,
     "question": "69. ¿Cuál de las siguientes opciones permite insertar formas como rectángulos, flechas o estrellas en una hoja?",
     "options": {
       "A": "Insertar > Tabla dinámica",
@@ -773,7 +762,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 71,
+    "id": 70,
     "question": "70. Cuando inserta un cuadro de texto, ¿cómo se cambia el estilo de su borde o el relleno?",
     "options": {
       "A": "No se puede",
@@ -784,7 +773,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 72,
+    "id": 71,
     "question": "71. ¿Qué función de accesibilidad permite insertar texto alternativo (Alt Text) para objetos como imágenes o gráficos?",
     "options": {
       "A": "Insertar > Función",
@@ -795,7 +784,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 73,
+    "id": 72,
     "question": "72. ¿Qué función se utiliza para evaluar una prueba lógica y devolver un valor si la condición es verdadera y otro si es falsa?",
     "options": {
       "A": "SUMA",
@@ -806,7 +795,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 74,
+    "id": 73,
     "question": "73. Si necesita comprobar varias condiciones al mismo tiempo, ¿qué funciones lógicas se combinan con SI?",
     "options": {
       "A": "SUMA y PROMEDIO",
@@ -817,7 +806,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 75,
+    "id": 74,
     "question": "74. ¿Qué función SUMAR.SI hace?",
     "options": {
       "A": "Suma todos los valores en un rango",
@@ -828,7 +817,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 76,
+    "id": 75,
     "question": "75. Para contar el número de celdas que cumplen una condición específica, ¿qué función debe utilizar?",
     "options": {
       "A": "CONTAR",
@@ -839,7 +828,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 77,
+    "id": 76,
     "question": "76. Si se necesita calcular el promedio de las celdas que cumplen un único criterio, ¿qué función se utiliza?",
     "options": {
       "A": "SUMA",
@@ -850,7 +839,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 78,
+    "id": 77,
     "question": "77. ¿Cuál de las siguientes funciones devuelve los primeros n caracteres de una cadena de texto?",
     "options": {
       "A": "DERECHA",
@@ -861,7 +850,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 79,
+    "id": 78,
     "question": "78. ¿Qué función toma un texto y devuelve los últimos n caracteres?",
     "options": {
       "A": "IZQUIERDA",
@@ -872,7 +861,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 80,
+    "id": 79,
     "question": "79. Si se necesita extraer un fragmento de texto desde la posición número 3 durante 5 caracteres, ¿qué función se usaría?",
     "options": {
       "A": "EXTRAE",
@@ -883,7 +872,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 81,
+    "id": 80,
     "question": "80. ¿Qué función convierte todo el texto a mayúsculas?",
     "options": {
       "A": "MINUSC",
@@ -894,7 +883,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 82,
+    "id": 81,
     "question": "81. Para convertir todo el texto a minúsculas, ¿qué función se emplea?",
     "options": {
       "A": "NOMPROPIO",
@@ -905,7 +894,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 83,
+    "id": 82,
     "question": "82. Si se desea que sólo la primera letra de cada palabra de una frase esté en mayúscula, ¿qué función se utiliza?",
     "options": {
       "A": "CONCAT",
@@ -916,7 +905,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 84,
+    "id": 83,
     "question": "83. ¿Cuál de los siguientes métodos permite combinar el contenido de las celdas A2 y B2 en una sola celda incluyendo un espacio entre ellas?",
     "options": {
       "A": "=A2+B2",
@@ -927,7 +916,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 85,
+    "id": 84,
     "question": "84. ¿Qué permite la funcionalidad de validación de datos en Excel?",
     "options": {
       "A": "Convertir todas las celdas a mayúsculas",
@@ -938,7 +927,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 86,
+    "id": 85,
     "question": "85. Para crear una lista desplegable en una celda, ¿qué se debe seleccionar en la ventana de Validación de datos?",
     "options": {
       "A": "Permitir: Número entero",
@@ -949,7 +938,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 87,
+    "id": 86,
     "question": "86. ¿Qué sucede si se protege una hoja y luego se intenta modificar la validación de datos existente?",
     "options": {
       "A": "Excel actualizará automáticamente la validación",
@@ -960,7 +949,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 88,
+    "id": 87,
     "question": "87. ¿Cómo se protege la estructura de un libro para evitar que se vean, muevan, eliminen o renombren las hojas?",
     "options": {
       "A": "Revisar > Proteger hoja",
@@ -971,7 +960,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 89,
+    "id": 88,
     "question": "88. ¿Qué debe tener en cuenta al establecer una contraseña para proteger un libro?",
     "options": {
       "A": "Puede recuperarse fácilmente si la olvida",
@@ -982,7 +971,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 90,
+    "id": 89,
     "question": "89. ¿Qué herramienta de Excel permite crear diferentes conjuntos de valores (escenarios) para ver cómo afectan a los resultados?",
     "options": {
       "A": "Datos > Consolidar",
@@ -993,7 +982,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 91,
+    "id": 90,
     "question": "90. ¿Cuántas celdas variables (celdas cambiantes) permite definir cada escenario en el Administrador de escenarios?",
     "options": {
       "A": "1",
@@ -1004,7 +993,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 92,
+    "id": 91,
     "question": "91. ¿Qué opción produce un informe que muestra todos los escenarios creados y sus resultados?",
     "options": {
       "A": "Resumen de escenarios",
@@ -1015,7 +1004,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 93,
+    "id": 92,
     "question": "92. ¿Qué hace la herramienta “Buscar objetivo” (Goal Seek)?",
     "options": {
       "A": "Copia datos de otra hoja",
@@ -1026,7 +1015,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 94,
+    "id": 93,
     "question": "93. ¿Cuál es una limitación de Buscar objetivo que se soluciona con el complemento Solver?",
     "options": {
       "A": "Sólo trabaja con fórmulas de texto",
@@ -1037,7 +1026,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 95,
+    "id": 94,
     "question": "94. ¿Para qué se utiliza el complemento Solver en Excel?",
     "options": {
       "A": "Para ordenar listas",
@@ -1048,7 +1037,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 96,
+    "id": 95,
     "question": "95. Al configurar el Solver, ¿qué paso se realiza después de establecer la celda objetivo y las celdas variables?",
     "options": {
       "A": "Guardar el archivo",
@@ -1059,7 +1048,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 97,
+    "id": 96,
     "question": "96. ¿Cuál es la forma más sencilla de crear una macro en Excel?",
     "options": {
       "A": "Escribir código VBA manualmente",
@@ -1070,7 +1059,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 98,
+    "id": 97,
     "question": "97. ¿Dónde debe habilitarse la pestaña que permite grabar y gestionar macros?",
     "options": {
       "A": "Inserción",
@@ -1081,7 +1070,7 @@ const questions = [
     "correct": "C"
   },
   {
-    "id": 99,
+    "id": 98,
     "question": "98. ¿Cómo se asigna un atajo de teclado a una macro para ejecutarla rápidamente?",
     "options": {
       "A": "Doble clic en la macro",
@@ -1092,7 +1081,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 100,
+    "id": 99,
     "question": "99. ¿Qué función de Excel permite ejecutar una macro automáticamente al abrir un libro?",
     "options": {
       "A": "Evento Workbook_Open",
@@ -1103,7 +1092,7 @@ const questions = [
     "correct": "A"
   },
   {
-    "id": 101,
+    "id": 100,
     "question": "100. ¿Cuál de las siguientes afirmaciones sobre macros es correcta?",
     "options": {
       "A": "Solo se pueden grabar en Excel para la web",
@@ -1114,7 +1103,7 @@ const questions = [
     "correct": "B"
   },
   {
-    "id": 102,
+    "id": 101,
     "question": "101. Después de grabar una macro, ¿cómo se pueden revisar o modificar sus instrucciones?",
     "options": {
       "A": "No se pueden editar",
