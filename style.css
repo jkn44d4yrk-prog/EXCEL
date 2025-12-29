@@ -1,5 +1,5 @@
 :root {
-  --bg: #1a3a2a; /* Fondo verde oscuro */
+  --bg: #060a10; /* Fondo verde oscuro */
   --panel: rgba(255, 255, 255, 0.06);
   --stroke: rgba(255, 255, 255, 0.10);
   --text: rgba(255, 255, 255, 0.92);
@@ -19,8 +19,7 @@ body {
   radial-gradient(1200px 800px at 15% 10%, rgba(16, 124, 65, 0.40), rgba(6, 10, 16, 1) 62%),
   radial-gradient(900px 700px at 90% 20%, rgba(33, 115, 70, 0.30), rgba(6, 10, 16, 1) 60%),
   radial-gradient(800px 700px at 40% 95%, rgba(0, 176, 80, 0.22), rgba(6, 10, 16, 1) 62%),
-  #060a10;
-              var(--bg);
+  var(--bg);
   min-height: 100vh;
   padding: 18px;
 }
