@@ -1112,5 +1112,1094 @@ const questions = [
       "D": "Insertando una tabla dinámica"
     },
     "correct": "B"
+  },
+  {
+    "id": 102,
+    "question": "102. ¿Qué cuadro en la esquina superior izquierda muestra la referencia de la celda activa y permite ir rápidamente a una celda o rango con nombre?",
+    "options": {
+      "A": "Barra de estado",
+      "B": "Cuadro de nombres",
+      "C": "Panel de navegación",
+      "D": "Vista de Zoom"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 103,
+    "question": "103. ¿Qué comando copia rápidamente el formato de una celda o rango para aplicarlo en otra ubicación?",
+    "options": {
+      "A": "Pegar especial",
+      "B": "Pincel de formato",
+      "C": "Pegar vínculo",
+      "D": "Editor de formatos"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 104,
+    "question": "104. ¿Cuál de las siguientes referencias mantiene fija la columna pero permite que la fila cambie al copiar una fórmula?",
+    "options": {
+      "A": "$A$1",
+      "B": "A$1",
+      "C": "$A1",
+      "D": "A1"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 105,
+    "question": "105. ¿Qué método permite introducir rápidamente una serie de fechas consecutivas en celdas adyacentes?",
+    "options": {
+      "A": "Insertar función",
+      "B": "Copiar y pegar",
+      "C": "Arrastrar el controlador de relleno",
+      "D": "Formato condicional"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 106,
+    "question": "106. ¿Qué herramienta ajusta automáticamente el ancho de una columna para que se adapte al contenido más largo?",
+    "options": {
+      "A": "Alinear texto",
+      "B": "Ajustar texto",
+      "C": "Autoajuste de ancho",
+      "D": "Formato de celdas"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 107,
+    "question": "107. ¿Cómo se inserta un comentario moderno para colaborar en Excel 365?",
+    "options": {
+      "A": "Insertar > Comentario",
+      "B": "Revisar > Nuevo comentario",
+      "C": "Datos > Validación",
+      "D": "Inicio > Portapapeles"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 108,
+    "question": "108. En las versiones en español de Excel, ¿qué símbolo se utiliza para separar los argumentos de una función?",
+    "options": {
+      "A": "Punto y coma (;)",
+      "B": "Coma (,)",
+      "C": "Dos puntos (:)",
+      "D": "Espacio ( )"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 109,
+    "question": "109. ¿Cuál de los siguientes atajos de teclado inserta la función SUMA de forma automática?",
+    "options": {
+      "A": "Alt + =",
+      "B": "Ctrl + C",
+      "C": "Insertar > Tabla",
+      "D": "Pegar formato"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 110,
+    "question": "110. ¿Qué característica convierte rápidamente datos separados por comas o tabulaciones en columnas distintas?",
+    "options": {
+      "A": "Convertir texto en columnas",
+      "B": "Formato condicional",
+      "C": "Validación de datos",
+      "D": "Consolidar"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 111,
+    "question": "111. ¿Cuál de los siguientes atajos de teclado se utiliza para seleccionar toda la hoja de cálculo?",
+    "options": {
+      "A": "Ctrl + A",
+      "B": "Ctrl + Z",
+      "C": "Ctrl + P",
+      "D": "Ctrl + X"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 112,
+    "question": "112. ¿Qué tipos de alineación vertical están disponibles en Excel?",
+    "options": {
+      "A": "Superior, centrada e inferior",
+      "B": "Izquierda, centrada y derecha",
+      "C": "Ajustar texto, combinar celdas y sangría",
+      "D": "Negrita, cursiva y subrayado"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 113,
+    "question": "113. ¿Qué regla de formato condicional se utiliza para resaltar celdas con valores duplicados?",
+    "options": {
+      "A": "Barras de datos",
+      "B": "Conjunto de iconos",
+      "C": "Duplicar valores",
+      "D": "Escala de colores"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 114,
+    "question": "114. ¿Qué tipo de formato condicional muestra una variación gradual de color según el valor de cada celda?",
+    "options": {
+      "A": "Barras de datos",
+      "B": "Conjunto de iconos",
+      "C": "Escala de colores",
+      "D": "Duplicar valores"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 115,
+    "question": "115. ¿Cómo se convierte una tabla en un rango normal conservando el formato aplicado?",
+    "options": {
+      "A": "No se puede convertir",
+      "B": "Seleccionando la tabla y eligiendo «Convertir a rango» en Herramientas de tabla > Diseño",
+      "C": "Copiando y pegando manualmente",
+      "D": "Insertando un gráfico"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 116,
+    "question": "116. ¿Qué permite la herramienta «Quitar duplicados» en Excel?",
+    "options": {
+      "A": "Ordenar alfabéticamente los datos",
+      "B": "Eliminar filas que contienen valores repetidos según las columnas seleccionadas",
+      "C": "Convertir texto en columnas",
+      "D": "Crear un resumen mediante subtotales"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 117,
+    "question": "117. Si se desea restringir la entrada a números enteros entre 1 y 100 en una celda, ¿qué opción se debe elegir en la ventana de Validación de datos?",
+    "options": {
+      "A": "Permitir: Lista",
+      "B": "Permitir: Número entero con valores mínimo 1 y máximo 100",
+      "C": "Permitir: Cualquier valor",
+      "D": "Permitir: Fecha"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 118,
+    "question": "118. ¿Qué se puede hacer en la vista Archivo > Información para proteger un libro?",
+    "options": {
+      "A": "Cambiar el tipo de gráfico",
+      "B": "Establecer contraseñas y gestionar las versiones del archivo",
+      "C": "Insertar minigráficos",
+      "D": "Crear validación de datos"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 119,
+    "question": "119. ¿Cuál es la diferencia entre las combinaciones de teclas Ctrl + X y Ctrl + V?",
+    "options": {
+      "A": "Ctrl + X copia y Ctrl + V corta",
+      "B": "Ctrl + X corta y Ctrl + V pega",
+      "C": "Ctrl + X guarda y Ctrl + V imprime",
+      "D": "Ctrl + X deshace y Ctrl + V rehace"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 120,
+    "question": "120. Para obtener la fecha actual que se actualiza automáticamente, ¿qué función se utiliza?",
+    "options": {
+      "A": "=FECHA()",
+      "B": "=HOY()",
+      "C": "=AHORA()",
+      "D": "=DIA()"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 121,
+    "question": "121. ¿Cómo se crea una lista personalizada que permita ordenar datos según un orden propio (por ejemplo, «Alto, Medio, Bajo»)?",
+    "options": {
+      "A": "Utilizando Filtro avanzado",
+      "B": "Definiendo una lista personalizada en las Opciones de Excel y seleccionándola al ordenar",
+      "C": "Aplicando formato condicional",
+      "D": "Insertando un gráfico"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 122,
+    "question": "122. ¿Qué comando aumenta la sangría del contenido dentro de una celda?",
+    "options": {
+      "A": "Aumentar sangría",
+      "B": "Disminuir sangría",
+      "C": "Combinar y centrar",
+      "D": "Rellenar celdas"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 123,
+    "question": "123. ¿Qué indica el error #¡DIV/0! en una celda?",
+    "options": {
+      "A": "Excel ignora el error y muestra cero",
+      "B": "La fórmula intenta dividir un número entre cero o una celda vacía",
+      "C": "Excel cierra el libro",
+      "D": "El error se corrige automáticamente"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 124,
+    "question": "124. ¿Qué herramienta sugiere automáticamente tipos de gráficos basados en los datos seleccionados?",
+    "options": {
+      "A": "Minigráficos",
+      "B": "Gráfico dinámico",
+      "C": "Gráficos recomendados",
+      "D": "Consolidar datos"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 125,
+    "question": "125. ¿Cómo se inserta una nota tradicional (nota) en Excel 365?",
+    "options": {
+      "A": "en Excel 365?",
+      "B": "Inicio > Comentario",
+      "C": "Datos > Filtro",
+      "D": "Insertar > Función"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 126,
+    "question": "126. ¿Cuál es la tecla de función que repite la última acción realizada, como aplicar el mismo formato?",
+    "options": {
+      "A": "F4",
+      "B": "F2",
+      "C": "F7",
+      "D": "F1"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 127,
+    "question": "127. ¿Qué combinación de teclas inserta la hora actual en una celda sin que se actualice automáticamente?",
+    "options": {
+      "A": "=AHORA()",
+      "B": "Ctrl + Mayús + ;",
+      "C": "=HOY()",
+      "D": "Insertar > Hora"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 128,
+    "question": "128. ¿Cuál de los siguientes NO es un tipo de gráfico estándar en Excel?",
+    "options": {
+      "A": "Gráfico de columnas",
+      "B": "Gráfico circular",
+      "C": "Gráfico de máquina de vectores",
+      "D": "Gráfico de líneas"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 129,
+    "question": "129. ¿Qué función de búsqueda permite encontrar un valor en la primera columna de un rango y devolver un valor relacionado en la misma fila?",
+    "options": {
+      "A": "BUSCARV",
+      "B": "SUMAR.SI",
+      "C": "CONTAR",
+      "D": "SI"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 130,
+    "question": "130. ¿Cuál es la diferencia entre BUSCARV y BUSCARH?",
+    "options": {
+      "A": "BUSCARV busca en filas y BUSCARH en columnas",
+      "B": "BUSCARV busca verticalmente en columnas y BUSCARH horizontalmente en filas",
+      "C": "No existe diferencia entre ambas",
+      "D": "BUSCARH solo funciona con números"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 131,
+    "question": "131. ¿Qué función devuelve la posición de un elemento dentro de una matriz de valores?",
+    "options": {
+      "A": "INDICE",
+      "B": "SUMA",
+      "C": "COINCIDIR",
+      "D": "ALEATORIO"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 132,
+    "question": "132. ¿Qué combinación de funciones se utiliza para buscar un valor en cualquier columna de una tabla y devolver el resultado asociado?",
+    "options": {
+      "A": "SUMA.PRODUCTO",
+      "B": "INDICE y COINCIDIR",
+      "C": "CONCAT",
+      "D": "TRIM"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 133,
+    "question": "133. ¿Qué función devuelve el número de caracteres de una cadena de texto?",
+    "options": {
+      "A": "REEMPLAZAR",
+      "B": "ENCONTRAR",
+      "C": "LARGO",
+      "D": "NOMPROPIO"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 134,
+    "question": "134. ¿Cuál de las siguientes funciones devuelve el número de serie de la fecha y hora actuales (fecha y hora)?",
+    "options": {
+      "A": "?",
+      "B": "AHORA()",
+      "C": "FECHA()",
+      "D": "DIA()"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 135,
+    "question": "135. ¿Qué hace la función SI.ERROR(valor, valor_si_error) en Excel?",
+    "options": {
+      "A": "Devuelve siempre el valor 0",
+      "B": "Devuelve valor_si_error si la expresión produce error; de lo contrario devuelve el valor",
+      "C": "Suma valores en un rango",
+      "D": "Filtra datos por criterios"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 136,
+    "question": "136. ¿Qué función devuelve el número del día de la semana (1 = domingo, 7 = sábado) de una fecha?",
+    "options": {
+      "A": "DIA()",
+      "B": "DIAS.LAB()",
+      "C": "DIASEM()",
+      "D": "HOY()"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 137,
+    "question": "137. ¿Qué opción en la pestaña Datos permite combinar datos de varios rangos o libros en un solo resumen utilizando funciones como SUMA o PROMEDIO?",
+    "options": {
+      "A": "Consolidar",
+      "B": "Validación",
+      "C": "Quitar duplicados",
+      "D": "Subtotales"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 138,
+    "question": "138. ¿Qué es una referencia 3D en Excel?",
+    "options": {
+      "A": "Una referencia que incluye la altura de las celdas",
+      "B": "Un enlace que permite realizar cálculos utilizando el mismo rango en varias hojas del libro",
+      "C": "Una tabla dinámica",
+      "D": "Un gráfico tridimensional"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 139,
+    "question": "139. Cuando se inserta un hipervínculo en una celda, ¿qué tecla se mantiene presionada para seguir el enlace?",
+    "options": {
+      "A": "Mayús (Shift)",
+      "B": "Alt",
+      "C": "Ctrl",
+      "D": "F10"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 140,
+    "question": "140. ¿Qué método se puede utilizar para insertar automáticamente una lista de los meses del año en español?",
+    "options": {
+      "A": "Autorrellenar arrastrando el controlador de relleno",
+      "B": "Función SUMA",
+      "C": "Filtro avanzado",
+      "D": "Consolidar"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 141,
+    "question": "141. ¿Cuál es la finalidad del comando «Duplicar hoja» en el menú contextual de la pestaña de hoja?",
+    "options": {
+      "A": "Crear una copia idéntica de la hoja actual dentro del libro",
+      "B": "Renombrar la hoja",
+      "C": "Ocultar la hoja",
+      "D": "Proteger la hoja"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 142,
+    "question": "142. Para cambiar el nombre a una hoja de cálculo, ¿qué acción se debe realizar?",
+    "options": {
+      "A": "Hacer doble clic en la pestaña de la hoja y escribir el nuevo nombre",
+      "B": "Seleccionar la hoja y presionar Ctrl + R",
+      "C": "Presionar F4",
+      "D": "No se puede cambiar el nombre"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 143,
+    "question": "143. ¿Qué función elimina los espacios iniciales y finales de un texto y reduce los espacios múltiples a uno solo?",
+    "options": {
+      "A": "MINUSC",
+      "B": "SUBSTITUIR",
+      "C": "ESPACIOS",
+      "D": "NOMPROPIO"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 144,
+    "question": "144. ¿Qué comando de Pegado especial permite transponer datos de filas en columnas y viceversa?",
+    "options": {
+      "A": "Transponer",
+      "B": "Pegar valores",
+      "C": "Copiar formato",
+      "D": "Pegar vínculo"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 145,
+    "question": "145. ¿Qué herramienta permite aplicar de forma rápida formatos, gráficos y totales a un rango seleccionado mediante un menú contextual?",
+    "options": {
+      "A": "Tabla dinámica",
+      "B": "Análisis rápido",
+      "C": "Minigráfico",
+      "D": "Consolidar"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 146,
+    "question": "146. ¿Qué botón situado a la izquierda de la barra de fórmulas abre el cuadro de diálogo para insertar funciones y proporciona ayuda sobre sus argumentos?",
+    "options": {
+      "A": "Insertar tabla",
+      "B": "Insertar función (botón fx)",
+      "C": "Filtro avanzado",
+      "D": "Edición rápida"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 147,
+    "question": "147. ¿Cuál es la extensión estándar de un archivo de Excel que admite macros?",
+    "options": {
+      "A": ".xlsx",
+      "B": ".xls",
+      "C": ".xlsm",
+      "D": ".csv"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 148,
+    "question": "148. ¿Qué opción de formato de celda debe activarse para que la fórmula no se muestre en la barra de fórmulas cuando se protege la hoja?",
+    "options": {
+      "A": "Bloqueada",
+      "B": "Oculta",
+      "C": "Resaltada",
+      "D": "Combinada"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 149,
+    "question": "149. ¿En qué ficha se encuentra la opción «Sinónimos» para buscar términos alternativos de una palabra seleccionada?",
+    "options": {
+      "A": "Insertar",
+      "B": "Revisar",
+      "C": "Datos",
+      "D": "Inicio"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 150,
+    "question": "150. ¿Qué funcionalidad de Excel detecta patrones y sugiere completar automáticamente el resto de los datos de una columna?",
+    "options": {
+      "A": "Autorrellenar",
+      "B": "Serie de datos",
+      "C": "Relleno rápido",
+      "D": "Formato condicional"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 151,
+    "question": "151. ¿Cuál es el número máximo de filas que admite una hoja de cálculo de Excel 365?",
+    "options": {
+      "A": "65 536 filas",
+      "B": "1 048 576 filas",
+      "C": "999 999 filas",
+      "D": "10 000 filas"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 152,
+    "question": "152. ¿Cómo se establece un vínculo dinámico a datos de otro libro de Excel para que se actualice cuando cambie el archivo de origen?",
+    "options": {
+      "A": "Pegando valores",
+      "B": "Usando Pegar vínculo o escribiendo la referencia externa con el nombre del libro",
+      "C": "Copiando y pegando como imagen",
+      "D": "Insertando un gráfico"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 153,
+    "question": "153. Para obtener la fecha actual más siete días, ¿qué fórmula puede utilizar?",
+    "options": {
+      "A": "=HOY()+7",
+      "B": "=DIA()+7",
+      "C": "=AHORA()-7",
+      "D": "=FECHA()+7"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 154,
+    "question": "154. ¿En qué pestaña se encuentra la opción «Mostrar fórmulas», que muestra las fórmulas en la hoja en lugar de sus resultados?",
+    "options": {
+      "A": "Insertar",
+      "B": "Fórmulas",
+      "C": "Revisar",
+      "D": "Datos"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 155,
+    "question": "155. ¿Qué hace la función SUSTITUIR(texto, texto_antiguo, texto_nuevo,[núm_instancia])?",
+    "options": {
+      "A": "Convierte el texto a mayúsculas",
+      "B": "Sustituye todas o una instancia específica de un texto por otro dentro de una cadena",
+      "C": "Devuelve el número de caracteres de un texto",
+      "D": "Extrae parte de una cadena"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 156,
+    "question": "156. Si desea imprimir títulos de filas o columnas en todas las páginas de una impresión, ¿qué debe hacer?",
+    "options": {
+      "A": "Insertar encabezados y pies de página",
+      "B": "En Diseño de página > Imprimir títulos, definir las filas o columnas a repetir",
+      "C": "Ajustar los márgenes",
+      "D": "Crear un filtro"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 157,
+    "question": "157. ¿Cómo se agrega un comando específico a la Barra de herramientas de acceso rápido?",
+    "options": {
+      "A": "No se puede personalizar",
+      "B": "Haciendo clic con el botón derecho en el comando y seleccionando «Agregar a la barra de herramientas de acceso rápido»",
+      "C": "Copiando y pegando",
+      "D": "Insertando un gráfico"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 158,
+    "question": "158. ¿Qué extensión de archivo se utiliza para guardar un libro como plantilla de Excel sin macros?",
+    "options": {
+      "A": ".xltx",
+      "B": ".xlsb",
+      "C": ".csv",
+      "D": ".xlsx"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 159,
+    "question": "159. ¿Cuál de las siguientes funciones redondea un número hacia arriba al entero más próximo?",
+    "options": {
+      "A": "REDONDEAR.MENOS",
+      "B": "ENTERO",
+      "C": "REDONDEAR.MAS",
+      "D": "TRUNCAR"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 160,
+    "question": "160. ¿Qué combinación de teclas abre el cuadro de diálogo Formato de celdas?",
+    "options": {
+      "A": "Ctrl + F",
+      "B": "Ctrl + 1",
+      "C": "Ctrl + 2",
+      "D": "Ctrl + 9"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 161,
+    "question": "161. ¿Qué función estadística devuelve el valor que se encuentra en la mitad de un grupo de números?",
+    "options": {
+      "A": "MEDIANA",
+      "B": "PROMEDIO",
+      "C": "MODA",
+      "D": "DESVEST"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 162,
+    "question": "162. ¿Qué efecto produce el comando Subtotal cuando se aplica a un rango de datos?",
+    "options": {
+      "A": "Elimina filas duplicadas",
+      "B": "Inserta filas intermedias con funciones como SUMA o PROMEDIO para cada grupo",
+      "C": "Convierte los datos en una tabla",
+      "D": "Ordena los datos alfabéticamente"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 163,
+    "question": "163. ¿Qué opción de filtrado permite mostrar solo las diez entradas más altas en un rango de números?",
+    "options": {
+      "A": "Filtro de texto",
+      "B": "Filtro numérico > Diez superiores",
+      "C": "Filtro de fecha",
+      "D": "Filtro por color"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 164,
+    "question": "164. ¿Qué herramienta se utiliza para extraer datos de una tabla en función de criterios y mostrarlos en otra ubicación?",
+    "options": {
+      "A": "Filtro avanzado",
+      "B": "Formato condicional",
+      "C": "Consolidar",
+      "D": "Subtotales"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 165,
+    "question": "165. ¿Qué botón de la pestaña Inicio permite aplicar un conjunto de bordes predefinidos, como bordes exteriores gruesos?",
+    "options": {
+      "A": "Bordes",
+      "B": "Alineación",
+      "C": "Estilos de tabla",
+      "D": "Combinar celdas"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 166,
+    "question": "166. ¿Cuál de las siguientes funciones devuelve la parte entera de un número eliminando su fracción decimal?",
+    "options": {
+      "A": "ENTERO",
+      "B": "REDONDEAR.MAS",
+      "C": "PROMEDIO",
+      "D": "ABS"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 167,
+    "question": "167. ¿Cómo se agrega una línea de tendencia a un gráfico existente?",
+    "options": {
+      "A": "Haciendo doble clic en la hoja de cálculo",
+      "B": "Seleccionando el gráfico y usando Elementos del gráfico > Línea de tendencia",
+      "C": "Creando una tabla dinámica",
+      "D": "Aplicando formato condicional"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 168,
+    "question": "168. ¿Qué tipo de minigráfico muestra únicamente los aumentos y disminuciones de valores sin indicar la magnitud?",
+    "options": {
+      "A": "Línea",
+      "B": "Columna",
+      "C": "Ganancia/pérdida",
+      "D": "Circular"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 169,
+    "question": "169. ¿Cómo se puede dividir una celda diagonalmente y colocar texto en cada mitad?",
+    "options": {
+      "A": "Insertando una forma",
+      "B": "Aplicando un borde diagonal en Formato de celdas y ajustando las alineaciones",
+      "C": "Usando Combinar y centrar",
+      "D": "Utilizando Filtro avanzado"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 170,
+    "question": "170. ¿Cuál de las operaciones disponibles en Pegado especial permite multiplicar el contenido del rango copiado por el contenido del rango de destino?",
+    "options": {
+      "A": "Pegar valores",
+      "B": "Transponer",
+      "C": "Multiplicar",
+      "D": "Pegar formato"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 171,
+    "question": "171. ¿Cuál es la principal diferencia entre una fórmula escrita por el usuario y una función en Excel?",
+    "options": {
+      "A": "Son exactamente lo mismo",
+      "B": "Una fórmula es una expresión personalizada y una función es una fórmula predefinida integrada en Excel",
+      "C": "Una fórmula solo se usa con números y una función solo con texto",
+      "D": "Las funciones están deshabilitadas por defecto"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 172,
+    "question": "172. ¿Qué tecla de función permite activar el modo edición en la celda seleccionada para modificar su contenido?",
+    "options": {
+      "A": "F2",
+      "B": "F4",
+      "C": "F7",
+      "D": "F9"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 173,
+    "question": "173. ¿Cómo se elimina un formato condicional aplicado a un rango?",
+    "options": {
+      "A": "Borrando las celdas",
+      "B": "Inicio > Formato condicional > Borrar reglas",
+      "C": "Insertando una tabla dinámica",
+      "D": "Usando Filtro avanzado"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 174,
+    "question": "174. ¿Qué sucede si se mantiene presionada la tecla Ctrl mientras se arrastra una pestaña de hoja a otra posición?",
+    "options": {
+      "A": "Se mueve la hoja a la nueva posición",
+      "B": "Se copia la hoja en la posición nueva",
+      "C": "Se elimina la hoja",
+      "D": "No ocurre nada"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 175,
+    "question": "175. ¿Qué opción del Portapapeles de Office permite almacenar hasta 24 elementos copiados para reutilizarlos?",
+    "options": {
+      "A": "Portapapeles de Windows",
+      "B": "Portapapeles de Office (visible en Inicio > Portapapeles)",
+      "C": "Filtro condicional",
+      "D": "Consola del desarrollador"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 176,
+    "question": "176. ¿Qué es un rango con nombre y cómo se crea?",
+    "options": {
+      "A": "Una imagen insertada en Excel; se crea con Insertar > Imagen",
+      "B": "Un conjunto de celdas identificado por un nombre; se crea seleccionando el rango y escribiendo un nombre en el cuadro de nombres o usando Fórmulas > Definir nombre",
+      "C": "Un tipo de macro; se crea con el editor de Visual Basic",
+      "D": "Un tipo de tabla dinámica"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 177,
+    "question": "177. ¿Para qué sirve la función DESREF(rango, filas, columnas,[alto],[ancho])?",
+    "options": {
+      "A": "Devuelve la suma de un rango",
+      "B": "Devuelve una referencia a un rango desplazado respecto a una celda o rango inicial",
+      "C": "Devuelve el promedio de un rango",
+      "D": "Convierte texto a mayúsculas"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 178,
+    "question": "178. ¿Qué tecla presiona para recalcular todos los libros abiertos en Excel?",
+    "options": {
+      "A": "F9",
+      "B": "Ctrl + N",
+      "C": "Alt + F4",
+      "D": "Tab"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 179,
+    "question": "179. ¿Qué función devuelve el residuo de una división?",
+    "options": {
+      "A": "RESIDUO",
+      "B": "COCIENTE",
+      "C": "RESTA",
+      "D": "SUMA"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 180,
+    "question": "180. ¿Qué función convierte un texto que representa un número en un valor numérico?",
+    "options": {
+      "A": "VALOR",
+      "B": "TEXTO",
+      "C": "ABS",
+      "D": "TRUNCAR"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 181,
+    "question": "181. ¿Cómo se crea una función SI anidada para evaluar varias condiciones secuenciales?",
+    "options": {
+      "A": "Utilizando únicamente las funciones Y y O",
+      "B": "Colocando otra función SI dentro del argumento «valor_si_falso» o «valor_si_verdadero» de la función SI",
+      "C": "Insertando una tabla dinámica",
+      "D": "No se pueden anidar funciones SI"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 182,
+    "question": "182. ¿Qué comando de Pegado especial crea una imagen que se actualiza cuando cambian los datos de origen?",
+    "options": {
+      "A": "Pegado especial > Imagen vinculada",
+      "B": "Pegado especial > Valores",
+      "C": "Pegado especial > Formato",
+      "D": "Pegado especial > Texto"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 183,
+    "question": "183. ¿Cuál es la diferencia entre un gráfico incrustado en la hoja de cálculo y un gráfico en hoja independiente?",
+    "options": {
+      "A": "Los gráficos en hoja independiente se pueden imprimir, mientras que los incrustados no",
+      "B": "Los gráficos en hoja independiente están en una hoja separada del libro, mientras que los incrustados se encuentran en la misma hoja de datos",
+      "C": "No existe ninguna diferencia",
+      "D": "Los gráficos incrustados no se pueden editar"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 184,
+    "question": "184. En el panel de impresión, ¿qué opción de escalado se utiliza para imprimir todas las columnas en una sola página de ancho?",
+    "options": {
+      "A": "Sin escalado",
+      "B": "Ajustar hoja a una página",
+      "C": "Ajustar todas las columnas en una página",
+      "D": "Ajustar todas las filas en una página"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 185,
+    "question": "185. ¿Qué función devuelve el número del día de un mes (1 – 31) a partir de una fecha?",
+    "options": {
+      "A": "DIA",
+      "B": "MES",
+      "C": "AÑO",
+      "D": "FECHA"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 186,
+    "question": "186. ¿Qué función calcula el pago periódico de un préstamo basándose en una tasa de interés constante, el número de períodos y el valor actual?",
+    "options": {
+      "A": "TASA",
+      "B": "PAGO",
+      "C": "VA",
+      "D": "VF"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 187,
+    "question": "187. ¿Cuál de las siguientes afirmaciones describe la función SUMAR.SI.CONJUNTO?",
+    "options": {
+      "A": "Devuelve el número de celdas que cumplen un criterio",
+      "B": "Suma valores que cumplen varios criterios en distintos rangos",
+      "C": "Devuelve el valor máximo de un rango",
+      "D": "Redondea valores hacia arriba"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 188,
+    "question": "188. ¿Qué herramienta de Excel en la pestaña Datos permite crear una hoja de pronóstico basada en datos históricos para predecir tendencias futuras?",
+    "options": {
+      "A": "Consolidar",
+      "B": "Hoja de pronóstico",
+      "C": "Subtotales",
+      "D": "Minigráficos"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 189,
+    "question": "189. ¿Qué error se muestra cuando una fórmula hace referencia a una celda que ya no existe o a un rango eliminado?",
+    "options": {
+      "A": "#¡VALOR!",
+      "B": "#¡REF!",
+      "C": "#¡DIV/0!",
+      "D": "#N/A"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 190,
+    "question": "190. ¿Cómo se eliminan tanto el contenido como el formato de un rango de celdas?",
+    "options": {
+      "A": "Presionando Supr (Delete)",
+      "B": "Inicio > Borrar > Borrar todo",
+      "C": "Aplicando formato condicional",
+      "D": "Insertando un nuevo rango"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 191,
+    "question": "191. ¿Qué función cuenta el número de celdas no vacías en un rango, independientemente de su tipo de dato?",
+    "options": {
+      "A": "CONTAR",
+      "B": "CONTARA",
+      "C": "CONTAR.SI",
+      "D": "SUMA"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 192,
+    "question": "192. ¿Qué se logra al proteger la estructura de un libro en Excel?",
+    "options": {
+      "A": "Evitar que se cambien valores en las celdas",
+      "B": "Impedir que se inserten, muevan o eliminen hojas sin la contraseña correspondiente",
+      "C": "Impedir imprimir el libro",
+      "D": "Ocultar los gráficos del libro"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 193,
+    "question": "193. ¿Cuál es la ventaja de utilizar la vista «Vista previa de saltos de página»?",
+    "options": {
+      "A": "Muestra la estructura de la tabla",
+      "B": "Permite ver y ajustar manualmente los saltos de página antes de imprimir",
+      "C": "Cambia los valores de las celdas",
+      "D": "Inserta funciones automáticamente"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 194,
+    "question": "194. ¿Cuál de las siguientes tareas NO se puede realizar directamente dentro de una tabla dinámica?",
+    "options": {
+      "A": "Ordenar campos",
+      "B": "Insertar fórmulas en celdas fuera de la tabla dinámica que hagan referencia a ella",
+      "C": "Cambiar el nombre de los campos",
+      "D": "Escribir datos nuevos dentro del área de la tabla dinámica"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 195,
+    "question": "195. ¿Cómo se configura una tabla dinámica para que se actualice automáticamente al abrir el archivo?",
+    "options": {
+      "A": "No es posible actualizar automáticamente",
+      "B": "En Opciones de tabla dinámica, activar «Actualizar al abrir el archivo»",
+      "C": "Volver a crear la tabla dinámica en cada apertura",
+      "D": "Ejecutar una macro manualmente"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 196,
+    "question": "196. ¿Qué función convierte un valor numérico en texto utilizando un formato especificado, permitiendo concatenarlo con otros textos?",
+    "options": {
+      "A": "TEXTO",
+      "B": "MAYUSC",
+      "C": "CONTAR",
+      "D": "BUSCARV"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 197,
+    "question": "197. ¿Qué uso tiene el Administrador de nombres en Excel?",
+    "options": {
+      "A": "Es una lista de contactos",
+      "B": "Permite crear, editar y eliminar nombres definidos para celdas y rangos",
+      "C": "Genera macros automáticas",
+      "D": "Gestiona contraseñas de libros"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 198,
+    "question": "198. ¿Qué configuración de cálculo de Excel hace que las fórmulas se recalculen únicamente cuando se realiza un cálculo manual?",
+    "options": {
+      "A": "Automática",
+      "B": "Manual",
+      "C": "Semiautomática",
+      "D": "Instantánea"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 199,
+    "question": "199. ¿Qué función devuelve el número de la columna de una referencia de celda?",
+    "options": {
+      "A": "FILA",
+      "B": "COLUMNA",
+      "C": "CELDA",
+      "D": "DESREF"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 200,
+    "question": "200. ¿Qué tipo de objetos se pueden insertar mediante Insertar > SmartArt?",
+    "options": {
+      "A": "Iconos de fórmulas",
+      "B": "Representaciones gráficas de procesos, ciclos o jerarquías",
+      "C": "Tablas dinámicas",
+      "D": "Minigráficos"
+    },
+    "correct": "B"
   }
 ];
